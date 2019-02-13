@@ -1,0 +1,13 @@
+{
+	"name": "@contax/skipum-common",
+	"description": "Skipum common CDS entities",
+	"version": "1.0.0",
+	"devDependencies": {
+		"@sap/cds": "2.3.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/RoseOrBlanche/skipum-common.git"
+	},
+	"private": true
+}
