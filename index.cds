@@ -9,3 +9,4 @@ using from './currency';
 using from './geographic';
 using from './locale';
 using from './measures';
+using from './packaging';
