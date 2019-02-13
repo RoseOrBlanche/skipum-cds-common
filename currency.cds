@@ -1,12 +1,10 @@
 namespace com.skipum.common.currency;
 
 using com.skipum.common.codes as cds from './codes';
-using clouds.foundation as fnd from '@sap/cloud-samples-foundation';
 
 type CurrencyCode: String(3);
 entity Currency: cds.CodeList {
 	key code: CurrencyCode;
-	asdf: fnd.Currency;
 };
 
 annotate CurrencyCode with
