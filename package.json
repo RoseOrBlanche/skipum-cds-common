@@ -1,5 +1,5 @@
 {
-	"name": "@contax/skipum-common2",
+	"name": "@contax/skipum-common",
 	"description": "Skipum common CDS entity",
 	"version": "1.0.001",
 	"devDependencies": {
