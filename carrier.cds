@@ -1,7 +1,6 @@
 namespace com.skipum.common.carrier;
 
 using com.skipum.common.codes as cds from './codes';
-
 using com.skipum.common.contentSource as cs from './contentSource';
 
 type Enabled: Boolean @(
