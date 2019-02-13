@@ -151,3 +151,105 @@ annotate DistanceUnit with
 		}
 	);
 };
+
+annotate WeightUnit with
+@( // header-level annotations
+	title: '{i18n>weightUnit}',
+	UI:
+	{
+		Identification: [
+			{
+				$Type: 'UI.DataField',
+				Value: name
+			}
+		]
+	}
+)
+{
+	code @(
+		title: '{i18n>unitCode}',
+		Common:
+		{
+			Text: {$value: name, "@UI.TextArrangement": #TextOnly},
+		},
+		UI:
+		{
+			HiddenFilter: true
+		}
+	);
+	name @(
+		title: '{i18n>weightUnit}',
+		UI:
+		{
+			HiddenFilter: true
+		}
+	);
+};
+
+annotate AreaUnit with
+@( // header-level annotations
+	title: '{i18n>areaUnit}',
+	UI:
+	{
+		Identification: [
+			{
+				$Type: 'UI.DataField',
+				Value: name
+			}
+		]
+	}
+)
+{
+	code @(
+		title: '{i18n>unitCode}',
+		Common:
+		{
+			Text: {$value: name, "@UI.TextArrangement": #TextOnly},
+		},
+		UI:
+		{
+			HiddenFilter: true
+		}
+	);
+	name @(
+		title: '{i18n>areaUnit}',
+		UI:
+		{
+			HiddenFilter: true
+		}
+	);
+};
+
+annotate VolumeUnit with
+@( // header-level annotations
+	title: '{i18n>volumeUnit}',
+	UI:
+	{
+		Identification: [
+			{
+				$Type: 'UI.DataField',
+				Value: name
+			}
+		]
+	}
+)
+{
+	code @(
+		title: '{i18n>unitCode}',
+		Common:
+		{
+			Text: {$value: name, "@UI.TextArrangement": #TextOnly},
+		},
+		UI:
+		{
+			HiddenFilter: true
+		}
+	);
+	name @(
+		title: '{i18n>volumeUnit}',
+		UI:
+		{
+			HiddenFilter: true
+		}
+	);
+};
