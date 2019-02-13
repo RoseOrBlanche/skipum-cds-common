@@ -1,4 +1,4 @@
-namespace  com.skipum.common.businessPartner;
+namespace com.skipum.common.businessPartner;
 
 using com.skipum.common.codes as cds from './codes';
 using com.skipum.common.businessObject as bo from './businessObject';
