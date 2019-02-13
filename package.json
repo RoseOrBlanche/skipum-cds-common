@@ -1,6 +1,6 @@
 {
 	"name": "@contax/skipum-common",
-	"description": "Skipum common CDS entities",
+	"description": "Skipum common CDS entity",
 	"version": "1.0.001",
 	"devDependencies": {
 		"@sap/cds": "^3.5.0"
