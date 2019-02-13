@@ -3,7 +3,7 @@
 	"description": "Skipum common CDS entities",
 	"version": "1.0.001",
 	"devDependencies": {
-		"@sap/cds": "2.3.1"
+		"@sap/cds": "^3.5.0"
 	},
 	"repository": {
 		"type": "git",
