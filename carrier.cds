@@ -158,7 +158,7 @@ abstract entity CarrierBase: cds.CodeList {
 	site_url: String(200);
 };
 
-entity Carrier: CarrierBase {
+abstract entity Carrier: CarrierBase {
 	enabled: Enabled;
 	services: Composition of many Service on services.carrier = $self;
 	actions: Composition of many CarrierAction on actions.carrier = $self;
