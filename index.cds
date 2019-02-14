@@ -6,7 +6,6 @@ using from './carrier';
 using from './codes';
 using from './contentSource';
 using from './currency';
-using from './currency-db';
 using from './geographic';
 using from './locale';
 using from './measures';
