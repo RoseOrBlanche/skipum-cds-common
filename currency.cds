@@ -1,9 +1,9 @@
-namespace com.skipum.common.model.currency;
+namespace com.skipum.common.currency;
 
 using com.skipum.common.codes as cds from './codes';
 
 type CurrencyCode: String(3);
-abstract entity Currency: cds.CodeList {
+entity Currency: cds.CodeList {
 	key code: CurrencyCode;
 };
 
