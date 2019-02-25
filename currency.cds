@@ -7,6 +7,17 @@ entity Currency: cds.CodeList {
 	key code: CurrencyCode;
 };
 
+
+
+
+
+
+
+
+
+
+
+
 annotate CurrencyCode with
 @( 
 	title: '{i18n>currencyCode}'
